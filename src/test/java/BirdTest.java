@@ -23,7 +23,7 @@ public class BirdTest {
         b1.ageMonths = 4;
         String expected = "Chirp";
         String actual = b1.sound();
-        Assert.assertEquals(expected:"Chirp","Chirp");
+        Assert.assertEquals("Chirp","Chirp");
     }
     /**
      * If ageMonths is less than 3, birds should say "Chirp".
